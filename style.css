@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 5vh;
+}
+.navbar-heading{
+    margin: 10px;
+}
+.button{
+    
+    background-color: rgb(7, 73, 35);
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    cursor:pointer;
+    border-radius: 10px;
+    padding: 10px;
+}
+nav a{
+    padding: 5px;
+}
+nav a:hover{
+    transition: all 0.4s;
+    text-decoration: underline;
+
+}
+.welcome-section{
+    background:linear-gradient(to top,rgba(3, 3, 3, 0.801),rgba(3, 3, 3, 0.801)50%),url('images/code.jpg');
+    padding: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    padding-top: 130px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+span{
+    color: rgb(20, 150, 224);
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.hr{
+    border: 1px solid whitesmoke;
+    width: 200px;
+    margin: auto;
+}
+#about-us{
+    background: rgb(22, 22, 22);
+}
+.staff{
+    background: rgb(22, 22, 22);
+}
+.staff-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.staff-desc{
+    font-size: 1.2rem;
+    color: white;
+    margin: auto;
+}
+.president{
+    width: 500px;
+    padding: 20px;
+}
+#president:hover{
+    transform: scale(1.05);
+    transition: all 0.4s;
+}
+.footer{
+
+    background: #000;
+    color: white;
+    padding: 30px;
+    font-size: 18px;
+
+}
+
+@media  (max-width:2000px) {
+
+    .navbar-heading{
+        padding-left: 150px;
+    }
+    .about-us-paragraph{
+        margin: 20px 100px;
+        text-align: justify;
+    }
+}
+@media (max-width:600px) {
+    .navbar-heading{
+        padding-left: 10px;
+    }
+   .join{
+    text-align: center;
+   }
+}
+@media  (max-width:992px) {
+
+    .navbar-heading{
+        padding-left: 10px;
+    }
+    .about-us-paragraph{
+        margin: 5px;
+        text-align: justify;
+    }
+}
+@media  (max-width:1050px) {
+    .about-us-paragraph{
+        margin: 5px;
+        text-align: justify;
+    }
+ 
+}
+
+@media  (max-width:700px) {
+    
+    .img{
+        width: 50px;
+    }
+    .about-us-paragraph{
+        margin: auto;
+        text-align: justify;
+    }
+}
+@media  (max-width:580px){
+    #president{
+        text-align: center;
+    }
+
+}
+
+@media  (max-width:560px){
+    
+    nav ul li{
+        background-color: rgba(22, 22, 21, 0.76);
+        text-align: center;
+    }
+    .about-us-paragraph{
+        margin: auto;
+        text-align: justify;
+}
+    #join{
+    justify-content: center;
+}
+    .div{
+    text-align: center;
+    padding: 20px;
+}
+}
+
